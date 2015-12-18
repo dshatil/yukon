@@ -1,0 +1,59 @@
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# -----------------
+# Directories
+# -----------------
+target/
+
+/.metadata/
+
+*.log
+*.class
+*.*~
+# -----------------
+# eclipse files
+# -----------------
+.classpath
+.project
+.settings
+.springBeans
+
+
+# -----------------
+# Package Files #
+# -----------------
+# allow these so that we can add them as potential resources
+# the compiled versions will not be uploaded because of "target/"
+# -----------------
+#*.jar
+#*.war
+#*.ear
+
+ files
+# -----------------
+.classpath
+.project
+.settings
+.springBeans
+
+.DS_Store
+org.eclipse.core.resources.prefs
+org.eclipse.m2e.core.prefs
+# External tool builders
+.externalToolBuilders/
+
+
+#--------------------
+# Windows
+#--------------------
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+
+
+MANIFEST.MF
+
